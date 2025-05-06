@@ -6,6 +6,9 @@
     "build:css": "sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
   },
   "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "@hotwired/turbo-rails": "^8.0.13",
     "esbuild": "^0.25.4",
     "sass": "^1.87.0"
   }
